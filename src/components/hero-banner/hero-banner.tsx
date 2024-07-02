@@ -11,17 +11,17 @@ const HeroBanner = () => {
       <Image
         src={shape01}
         alt=""
-        className="size-[1600px] absolute top-[-900px] rotate-[25deg] opacity-50 left-[-950px]"
+        className="size-[1600px] hidden md:block absolute top-[-900px] rotate-[25deg] opacity-50 left-[-950px]"
       />
       <ContentWrapper>
-        <div className="grid grid-cols-2">
-          <div className="flex flex-col justify-center gap-6 items-center">
+        <div className="grid md:grid-cols-2">
+          <div className="flex flex-col justify-center gap-6 items-center py-8 md:py-0">
             <div className="flex flex-col gap-4">
-              <h2 className="text-6xl text-center font-bold">
+              <h2 className="text-4xl md:text-6xl text-center font-bold">
                 {" "}
                 Welcome to
                 <span className="text-[#DC143C]"> FinSol</span> <br /> Sampurna
-                Suvidha Kendra
+                Suvidha <br className="block md:hidden " /> Kendra
               </h2>
               <p className="text-sm text-center opacity-60">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -39,7 +39,7 @@ const HeroBanner = () => {
               </Button>
             </div>
           </div>
-          <div className="flex justify-center items-center overflow-hidden">
+          <div className="md:flex hidden justify-center items-center overflow-hidden">
             <Image src={banner} alt="banner" className=" scale-125" />
           </div>
         </div>

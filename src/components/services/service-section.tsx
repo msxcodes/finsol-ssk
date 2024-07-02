@@ -16,26 +16,26 @@ import shape03 from "../../../public/shape/block01.svg";
 
 const ServiceSection = () => {
   return (
-    <div className="mt-[120px] relative">
+    <div className="mt-[60px] md:mt-[120px] relative">
       <Image
         src={shape01}
         alt=""
-        className="absolute top-[-200px] right-[-450px] opacity-50 size-[800px]"
+        className="absolute hidden md:block top-[-200px] right-[-450px] opacity-50 size-[800px]"
       />
       <Image
         src={shape02}
         alt=""
-        className="absolute top-[-50px] left-12 opacity-50 rotate-180 size-[300px]"
+        className="absolute top-[-50px] hidden md:block left-12 opacity-50 rotate-180 size-[300px]"
       />
       <Image
         src={shape03}
         alt=""
-        className="absolute bottom-[-200px] right-64 opacity-50 rotate-180 size-[200px]"
+        className="absolute bottom-[-200px] right-64 hidden md:block opacity-50 rotate-180 size-[200px]"
       />
       <ContentWrapper>
         <div className="flex flex-col">
           <ServiceHeading />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-[60px] px-4 md:px-[140px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-[60px] px-[40px] md:px-[140px]">
             <ServiceCard
               title="GST Registration"
               des="Lorem ipsum consectetur adipisicing elit. Blanditiis dolores fuga,

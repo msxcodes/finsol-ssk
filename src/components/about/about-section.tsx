@@ -11,7 +11,7 @@ const AboutSection = () => {
             <Image src={poster} alt="About Us Poster" />
           </div>
           <div className="flex flex-col justify-center items-center gap-6">
-            <div className="px-4 md:px-0">
+            <div className="px-[40px] md:px-0">
               <h2 className="text-2xl font-semibold">What is SSK?</h2>
               <p className="text-sm md:pr-44 opacity-50">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
@@ -20,7 +20,7 @@ const AboutSection = () => {
                 minus adipisci dolorum at eius?
               </p>
             </div>
-            <div className="px-4 md:px-0">
+            <div className="px-[40px] md:px-0">
               <h2 className="text-2xl font-semibold">
                 Why SSK is the best option?
               </h2>
